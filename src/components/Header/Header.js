@@ -25,7 +25,7 @@ function Header() {
       <a className="desktopa" href="/">
         Início
       </a>
-      <a className="desktopa" href="/jobs">
+      <a className="desktopa" href="https://jobs.quickin.io/rhgrandestalentos/jobs">
         Oportunidades
       </a>
       <a className="desktopa" href="/contact">
@@ -43,7 +43,7 @@ function Header() {
 
         <div className="main">
           <a className="links" href="/">Início</a>
-          <a className="links" href="/jobs">Oportunidades</a>
+          <a className="links" href="https://jobs.quickin.io/rhgrandestalentos/jobs">Oportunidades</a>
           <a className="links" href="/contact">Fale Conosco</a>
           <div className="icons">
           <a href="https://www.linkedin.com/company/rh-grandes-talentos/">

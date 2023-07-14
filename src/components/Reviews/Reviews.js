@@ -1,7 +1,7 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import ReviewContainer from "./Reviews.styles";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {  Pagination, Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 import "swiper/swiper-bundle.min.css";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,19 +10,19 @@ import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import linkedin from '../../assets/linkedin.jpeg'
+
 
 function Reviews() {
-
   useEffect(() => {
-    Aos.init({duration: 2000});
+    Aos.init({ duration: 2000 });
   }, []);
-
 
   return (
     <ReviewContainer data-aos="fade-in">
       <h2>Opiniões dos nossos clientes</h2>
       <Swiper
-        modules={[ Pagination, Autoplay]}
+        modules={[Pagination, Autoplay]}
         slidesPerView={1}
         autoplay={{ delay: 4000 }}
         pagination={{ clickable: true }}
@@ -41,7 +41,11 @@ function Reviews() {
               dúvida indico a Ju para todos, é uma experiência especial e
               definitivamente um degrau importante na carreira.
             </p>
-            <p className="name">Natália Monteiro</p>
+
+            <div className="profile">
+              <img src={linkedin}/>
+              <p className="name">Natália Monteiro</p>
+            </div>
             <p className="position">
               Digital Marketing | Content Production & Advertising | Product
               Management
@@ -63,7 +67,10 @@ function Reviews() {
               criar um novo olhar sobre minha carreira me dando muito mais
               segurança e assertividade sobre quem eu sou profissionalmente.
             </p>
-            <p className="name">Maria Gabriela Pires Gresta</p>
+            <div className="profile">
+              <img src={linkedin} />
+              <p className="name">Maria Gabriela Pires Gresta</p>
+            </div>
             <p className="position">Analista de Processos / Projetos</p>
           </div>
         </SwiperSlide>
@@ -77,8 +84,13 @@ function Reviews() {
               trabalhando. Recomendo e terá retorno muito rápido! Parabéns pelo
               trabalho.
             </p>
-            <p className="name">Rangel Prates dos Santos</p>
-            <p className="position">Ecommerce | B2B | Desenvolvimento de Novos Parceiros</p>
+            <div className="profile">
+              <img src={linkedin} />
+              <p className="name">Rangel Prates dos Santos</p>
+            </div>
+            <p className="position">
+              Ecommerce | B2B | Desenvolvimento de Novos Parceiros
+            </p>
           </div>
         </SwiperSlide>
 
@@ -93,8 +105,13 @@ function Reviews() {
               pessoa que esteja em busca de oportunidades de carreira na
               indústria de tecnologia.
             </p>
-            <p className="name">João Bogo</p>
-            <p className="position">Desenvolvedor Fullstack (React.js, Node.js, SQL)</p>
+            <div className="profile">
+              <img src={linkedin} />
+              <p className="name">João Bogo</p>
+            </div>
+            <p className="position">
+              Desenvolvedor Fullstack (React.js, Node.js, SQL)
+            </p>
           </div>
         </SwiperSlide>
       </Swiper>

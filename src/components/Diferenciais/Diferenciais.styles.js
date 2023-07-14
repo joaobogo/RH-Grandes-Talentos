@@ -39,6 +39,19 @@ const DiferenciaisContainer = styled.div`
     box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.75);
   }
 
+  .circle {
+    border: solid 2px black;
+    border-radius: 50%;
+    width: 80px;
+    height: 70px;
+    margin-bottom: -5%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+  }
+
   .mobile{
       display: none;
     }

@@ -25,6 +25,16 @@ const ReviewContainer = styled.div`
     font-weight: 900;
   }
 
+  .profile{
+    display: flex; 
+    gap: 15px;
+  }
+
+  img{
+    width: 50px;
+    border-radius: 50%;
+    border: solid black;
+  }
   @media (max-width: 768px) {
 
 h2{
