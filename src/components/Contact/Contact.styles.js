@@ -50,7 +50,7 @@ const ContactContainer = styled.div`
     width: 15vw;
     height: 5vh;
     font-size: 16px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px pink;
   }
 
   .btn:hover {
@@ -92,16 +92,16 @@ const ContactContainer = styled.div`
     width: 35vw;
     border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);
-    border: solid black 1px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.6);
+    border: solid #ec1c7b 1px;
+    box-shadow: 0 0 10px pink;
   }
 
   textarea {
     width: 35vw;
     border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);
-    border: solid black 1px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, 0.6);
+    border: solid #ec1c7b 1px;
+    box-shadow: 0 0 10px pink;
   }
 
   h2 {

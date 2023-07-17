@@ -5,52 +5,59 @@ const DiferenciaisContainer = styled.div`
     color: #ec1c7b;
     text-align: center;
     font-size: 30px;
+    margin-bottom: 10vh;
   }
 
   h3 {
     color: #ec1c7b;
     text-align: center;
     font-size: 24px;
+    margin-bottom: -5%;
   }
 
   p {
     font-size: 15px;
-    text-align: justify;
-    margin-bottom: 5%;
-    padding: 2%;
+    text-align: center;
+    padding: 5%;
   }
 
   .cards {
     display: flex;
     justify-content: center;
-    gap: 5vw;
-    margin-bottom: 5%;
+    margin-top: 5%;
+gap: 5vh;
   }
 
   .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40vw;
+    width: 20vw;
     border: solid gray 1px;
-    border-radius: 10px;
-    -webkit-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.75);
-    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 1px 20px 0px pink;
+    -moz-box-shadow: 1px 1px 20px 0px pink;
+    box-shadow: 1px 1px 20px 0px pink;
   }
 
   .circle {
-    border: solid 2px black;
+    border: solid 2px #ec1c7b;
     border-radius: 50%;
     width: 80px;
     height: 70px;
     margin-bottom: -5%;
+    margin-top: -13%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 50;
+    overflow: hidden;
   }
+
+img{
+  width: 100%;
+}
 
   .mobile{
       display: none;

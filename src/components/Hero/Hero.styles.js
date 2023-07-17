@@ -40,6 +40,31 @@ const HeroContainer = styled.div`
     font-size: 20px;
   }
 
+.buttons{
+  gap: 10%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+  a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: white;
+    text-decoration: none;
+    color: #ec1c7b;
+    padding: .5%;
+  }
+
+  a:hover{
+    cursor: pointer;
+  }
+
+
   @media (max-width: 768px) {
 
 

@@ -7,6 +7,8 @@ import JobsDetail from "./routes/JobsDetail/JobsDetail";
 import Resume from "./routes/Resume/Resume";
 import Link from "./routes/LinkTutorial/Link";
 import ContactPage from "./routes/ContactPage/ContactPage";
+import Candidates from "./routes/Candidates/Candidates";
+import Companies from "./routes/Companies/Companies";
 
 
 function App() {
@@ -15,9 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/jobs" element={<Jobs />} />
-        <Route path="jobs/oportunidade/:id" element={<JobsDetail/>} />
-        <Route path="jobs/oportunidade/:id/resume/:id" element={<Resume/>} />
-        <Route path="/linktutorial" element={<Link/>} />
+        <Route path="/candidates" element={<Candidates/>} />
+        <Route path="/companies" element={<Companies/>} />
         <Route path="/contact" element={<ContactPage/>} />
       </Routes>
     </BrowserRouter>
