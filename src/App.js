@@ -9,6 +9,7 @@ import Link from "./routes/LinkTutorial/Link";
 import ContactPage from "./routes/ContactPage/ContactPage";
 import Candidates from "./routes/Candidates/Candidates";
 import Companies from "./routes/Companies/Companies";
+import Blog from "./routes/Blog/Blog";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/candidates" element={<Candidates/>} />
         <Route path="/companies" element={<Companies/>} />
         <Route path="/contact" element={<ContactPage/>} />
+        <Route path="/blog" element={<Blog/>} />
       </Routes>
     </BrowserRouter>
   );

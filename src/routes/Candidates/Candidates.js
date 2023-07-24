@@ -8,6 +8,8 @@ import network from "../../assets/network.png";
 import talk from "../../assets/talk.png";
 import money from "../../assets/pay.png";
 import Footer from "../../components/Footer/Footer";
+import Contact from '../../components/Contact/Contact';
+
 
 function Candidates() {
   return (
@@ -125,7 +127,7 @@ function Candidates() {
             </div>
           </div>
         </div>
-
+<Contact></Contact>
        <Footer></Footer>
       </CandidatesContainer>
     </>

@@ -44,7 +44,7 @@ const ContactContainer = styled.div`
     text-align: center;
     text-decoration: none;
     color: black;
-    border: solid black 1px;
+    border: solid #ec1c7b 1px;
     border-radius: 20px;
     background-color: white;
     width: 15vw;
@@ -88,7 +88,7 @@ const ContactContainer = styled.div`
   }
 
   input {
-    height: 6vh;
+    height: 4vh;
     width: 35vw;
     border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);

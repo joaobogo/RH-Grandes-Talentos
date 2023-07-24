@@ -85,6 +85,13 @@ function Contact() {
               value={contact.email}
               type="email"
             ></input>
+            <label>Telefone:</label>
+            <input
+              onChange={handleChange}
+              name="email"
+              value={contact.phone}
+              type='number'
+            ></input>
             <label>Assunto:</label>
             <input
               onChange={handleChange}
