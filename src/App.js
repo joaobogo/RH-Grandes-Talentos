@@ -10,7 +10,7 @@ import ContactPage from "./routes/ContactPage/ContactPage";
 import Candidates from "./routes/Candidates/Candidates";
 import Companies from "./routes/Companies/Companies";
 import Blog from "./routes/Blog/Blog";
-
+import Faq from './routes/FAQ/Faq'
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
         <Route path="/companies" element={<Companies/>} />
         <Route path="/contact" element={<ContactPage/>} />
         <Route path="/blog" element={<Blog/>} />
+        <Route path="/faq" element={<Faq/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -41,6 +41,9 @@ function Header() {
       <a className="desktopa" href="/blog">
         Blog
       </a>
+      <a className="desktopa" href="/faq">
+        FAQ
+      </a>
       <a className="desktopa" href="/contact">
         Fale Conosco
       </a>
@@ -69,8 +72,11 @@ function Header() {
           <a className="links" href="/candidates">
             Candidatos
           </a>
-          <a className="desktopa" href="/blog">
+          <a className="links" href="/blog">
             Blog
+          </a>
+          <a className="links" href="/faq">
+            FAQ
           </a>
           <a className="links" href="/contact">
             Fale Conosco

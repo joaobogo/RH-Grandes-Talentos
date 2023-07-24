@@ -38,7 +38,7 @@ const BlogContainer = styled.div`
 
   .postbody {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
     text-align: justify;
   }
