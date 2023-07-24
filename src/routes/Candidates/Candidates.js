@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/Header/Header";
 import CandidatesContainer from "./Candidates.styles";
 import cv from "../../assets/cv.png";
@@ -9,9 +9,18 @@ import talk from "../../assets/talk.png";
 import money from "../../assets/pay.png";
 import Footer from "../../components/Footer/Footer";
 import Contact from '../../components/Contact/Contact';
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 
 function Candidates() {
+
+  useEffect(() => {
+    Aos.init({duration: 2000});
+  }, []);
+  
+
+
   return (
     <>
       <Header />
@@ -44,7 +53,7 @@ function Candidates() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="fade-in">
             <img src={linked}></img>
             <div className="content">
               <h3>Aprimoramento do Perfil do LinkedIn</h3>
@@ -59,7 +68,7 @@ function Candidates() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="fade-in">
             <img src={interview}></img>
             <div className="content">
               <h3>Preparação para Entrevistas</h3>
@@ -75,7 +84,7 @@ function Candidates() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="fade-in">
             <img src={network}></img>
             <div className="content">
               <h3>Extensa Rede de Contatos e Histórico de Sucesso</h3>
@@ -92,7 +101,7 @@ function Candidates() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="fade-in">
             <img src={talk}></img>
             <div className="content">
               <h3>Planos Personalizados e Negociações Salariais</h3>
@@ -110,7 +119,7 @@ function Candidates() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="fade-in">
             <img src={money}></img>
             <div className="content">
               <h3>Abordagem de Pagamento por Resultados</h3>
@@ -127,7 +136,7 @@ function Candidates() {
             </div>
           </div>
         </div>
-<Contact></Contact>
+<Contact data-aos="fade-in"></Contact>
        <Footer></Footer>
       </CandidatesContainer>
     </>

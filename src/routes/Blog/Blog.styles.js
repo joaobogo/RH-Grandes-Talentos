@@ -36,6 +36,9 @@ const BlogContainer = styled.div`
     justify-content: space-between;
   }
 
+  strong{
+    color: black;
+  }
   .postbody {
     display: flex;
     gap: 20px;

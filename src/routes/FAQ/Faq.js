@@ -14,7 +14,7 @@ function Faq() {
       <FaqContainer>
         <h1>Perguntas Frequentes</h1>
         <h2>
-          Bem-vindo à página de Perguntas Frequentes da nossa empresa! Aqui você
+          Bem-vindo à nossa página de Perguntas Frequentes! Aqui você
           encontrará informações valiosas sobre nossas soluções completas de RH.
           Na RH Grandes Talentos, nossa equipe experiente está pronta para
           ajudar sua empresa a crescer. Desde recrutamento até desenvolvimento
