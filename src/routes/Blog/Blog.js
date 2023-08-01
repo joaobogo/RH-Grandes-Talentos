@@ -5,6 +5,7 @@ import Header from '../../components/Header/Header'
 import { PortableText } from "@portabletext/react";
 import { urlFor } from "../../client";
 import Footer from '../../components/Footer/Footer'
+
 function Blog() {
   const [posts, setPosts] = useState([]);
 
@@ -19,8 +20,9 @@ function Blog() {
     <Header/>
     <BlogContainer>
       <h1>Últimas Notícias</h1>
-      <div>
+      <div className="main">
         {posts.map((post) => (
+
           <div className="post" key={post._id}>
             <div className="posthead">
             {post.title ? <h2>- {post.title}</h2> : null}
@@ -34,6 +36,7 @@ function Blog() {
             {post.body ? <PortableText value={post.body} /> : null}           
            </div>
           </div>
+
         ))}
       </div>
     </BlogContainer>

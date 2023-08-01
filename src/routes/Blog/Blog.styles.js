@@ -51,6 +51,35 @@ const BlogContainer = styled.div`
     gap: 10px;
   }
  
+  @media screen and (max-width: 780px) {
+
+    .main{
+      display: flex;
+flex-direction: column;
+    }
+
+    .post{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .posthead{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .date{
+      margin-top: -5%;
+    }
+    .postbody{
+      display: flex;
+      flex-direction: column;
+    }
+
+    img{
+      width: 95%;
+    }
+  }
 `;
 
 export default BlogContainer;

@@ -127,6 +127,10 @@ const ContactContainer = styled.div`
   }
 
   @media screen and (max-width: 780px) {
+h2{
+  margin-top: 10%;
+}
+
     .main {
       flex-direction: column;
     }
@@ -160,6 +164,10 @@ const ContactContainer = styled.div`
 
     .btn {
       width: 40vw;
+    }
+
+    .quickicons{
+      margin-bottom: 5%;
     }
   }
 

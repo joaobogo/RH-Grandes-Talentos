@@ -15,8 +15,8 @@ const HeaderContainer = styled.header`
   }
 
   .logo {
-    margin-left: -5%;
-    margin-right: 5%;
+    margin-left: -4%;
+
   }
 
   a {
@@ -57,7 +57,7 @@ const HeaderContainer = styled.header`
       flex-direction: column;
       align-items: center;
       gap: 10px;
-      width: 50%;
+      width: 55%;
       z-index: 100;
       transition: 1s;
      
@@ -76,9 +76,10 @@ const HeaderContainer = styled.header`
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 100%;
+      width: 90%;
       height: 30%;
       gap: 5%;
+    
     }
 
     .links {
@@ -103,6 +104,24 @@ const HeaderContainer = styled.header`
    }
 
   }
+
+
+  @media (max-width: 768px) {
+.logo{
+  width: 40vw;
+  margin-right: 40%;
+}
+  }
+
+  @media (max-width: 370px) {
+
+    .logo{
+  width: 35vw;
+  margin-right: 40%;
+}
+
+  }
+
 `;
 
 export default HeaderContainer;

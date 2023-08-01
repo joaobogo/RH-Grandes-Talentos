@@ -10,10 +10,10 @@ const CandidatesContainer = styled.div`
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    text-align: center;
+    text-align: justify;
   }
 
-  h3{
+  h3 {
     color: #ec1c7b;
   }
 
@@ -29,13 +29,33 @@ const CandidatesContainer = styled.div`
     gap: 5%;
   }
 
-  
   img {
     width: 15%;
   }
 
-  p{
+  p {
     text-align: justify;
+  }
+
+  @media screen and (max-width: 780px) {
+    h1 {
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+
+    .card {
+      flex-direction: column;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+
+    img{
+      width: 40%;
+      margin-top: 5%;
+    }
   }
 `;
 

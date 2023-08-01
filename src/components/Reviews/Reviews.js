@@ -10,8 +10,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import linkedin from '../../assets/linkedin.jpeg'
-
+import linkedin from "../../assets/linkedin.jpeg";
 
 function Reviews() {
   useEffect(() => {
@@ -43,12 +42,11 @@ function Reviews() {
             </p>
 
             <div className="profile">
-              <img src={linkedin}/>
+              <img src={linkedin} />
               <p className="name">Natália Monteiro</p>
             </div>
             <p className="position">
-              Digital Marketing | Content Production & Advertising | Product
-              Management
+              Digital Marketing | Content Production & Advertising 
             </p>
           </div>
         </SwiperSlide>
@@ -56,16 +54,15 @@ function Reviews() {
         <SwiperSlide>
           <div className="review">
             <p className="mainp">
-              O primeiro atendimento da mentoria foi realmente um divisor de
-              águas na maneira que eu me apresento. A RH Grandes Talentos me
-              explicou exatamente os recrutadores precisam entender da minha
-              carreira, me ajudando a extrair e estruturar essa informação.
-              Depois das mentorias eu consegui enxergar o quanto eu contribui e
-              realizei nas minhas posições anteriores, e o mais legal é que eu
-              fiquei tão orgulhosa de mim mesma por tudo que eu já havia feito.
-              Não foi apenas um “o que falar numa entrevista”. Ela me ajudou a
-              criar um novo olhar sobre minha carreira me dando muito mais
-              segurança e assertividade sobre quem eu sou profissionalmente.
+              A RH Grandes Talentos me explicou exatamente o que os recrutadores
+              precisam entender da minha carreira, me ajudando a extrair e
+              estruturar essa informação. Depois das mentorias eu consegui
+              enxergar o quanto eu contribui e realizei nas minhas posições
+              anteriores, e o mais legal é que eu fiquei tão orgulhosa de mim
+              mesma por tudo que eu já havia feito. Não foi apenas um “o que
+              falar numa entrevista”. Ela me ajudou a criar um novo olhar sobre
+              minha carreira me dando muito mais segurança e assertividade sobre
+              quem eu sou profissionalmente.
             </p>
             <div className="profile">
               <img src={linkedin} />

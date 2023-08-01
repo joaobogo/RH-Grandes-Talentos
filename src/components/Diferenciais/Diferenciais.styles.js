@@ -25,7 +25,7 @@ const DiferenciaisContainer = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 5%;
-gap: 5vh;
+    gap: 5vh;
   }
 
   .card {
@@ -55,33 +55,24 @@ gap: 5vh;
     overflow: hidden;
   }
 
-img{
-  width: 100%;
-}
+  img {
+    width: 100%;
+  }
 
-  .mobile{
-      display: none;
-    }
+  .mobile {
+    display: none;
+  }
 
   @media (max-width: 768px) {
-
-    .desktop{
-      display: none;
+    .cards {
+      flex-direction: column;
+      align-items: center;
     }
 
-    .mobile{
-      display: flex;
-      justify-content: center;
+    .card {
+      width: 90%;
+      margin-top: 10%;
     }
-
-    .card{
-      width: 90vw;
-    }
-
-   p{
-    font-size: 14px;
-    padding: 4%;
-   }
   }
 `;
 
