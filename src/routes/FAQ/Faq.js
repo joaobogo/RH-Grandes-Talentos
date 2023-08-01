@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
 import FaqContainer from "./Faq.styles";
+import Whatsapp from '../../components/Whatsapp/Whatsapp'
 
 function Faq() {
   const [isClicked, setIsClicked] = useState(false);
@@ -98,6 +99,7 @@ function Faq() {
         </div>
       </FaqContainer>
       <Footer />
+      <Whatsapp/>
     </>
   );
 }

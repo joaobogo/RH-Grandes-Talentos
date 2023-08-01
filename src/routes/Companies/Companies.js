@@ -7,6 +7,8 @@ import juniortosenior from "../../assets/juniortosenior.png";
 import rhintegracao from "../../assets/rhintegracao.png";
 import brazil from "../../assets/brazil.png";
 import Contact from "../../components/Contact/Contact";
+import Whatsapp from '../../components/Whatsapp/Whatsapp'
+
 
 function Companies() {
   return (
@@ -101,6 +103,7 @@ function Companies() {
         <Contact/>
       </CandidatesContainer>
       <Footer />
+<Whatsapp/>
     </>
   );
 }

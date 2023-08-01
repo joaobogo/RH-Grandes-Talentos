@@ -11,6 +11,8 @@ import Footer from "../../components/Footer/Footer";
 import Contact from '../../components/Contact/Contact';
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Whatsapp from '../../components/Whatsapp/Whatsapp'
+
 
 
 function Candidates() {
@@ -139,6 +141,8 @@ function Candidates() {
 <Contact data-aos="fade-in"></Contact>
        <Footer></Footer>
       </CandidatesContainer>
+      <Footer/>
+      <Whatsapp/>
     </>
   );
 }

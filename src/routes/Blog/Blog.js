@@ -5,6 +5,8 @@ import Header from '../../components/Header/Header'
 import { PortableText } from "@portabletext/react";
 import { urlFor } from "../../client";
 import Footer from '../../components/Footer/Footer'
+import Whatsapp from '../../components/Whatsapp/Whatsapp'
+
 
 function Blog() {
   const [posts, setPosts] = useState([]);
@@ -41,6 +43,7 @@ function Blog() {
       </div>
     </BlogContainer>
     <Footer/>
+    <Whatsapp/>
     </>
 
   );

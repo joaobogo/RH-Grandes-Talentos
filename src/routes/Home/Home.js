@@ -8,6 +8,7 @@ import Partners from "../../components/Partners/Partners";
 import Contact from "../../components/Contact/Contact";
 import Footer from "../../components/Footer/Footer";
 import Diferenciais from "../../components/Diferenciais/Diferenciais";
+import WhatsappBtn from "../../components/Whatsapp/Whatsapp";
 
 
 function Home() {
@@ -21,6 +22,7 @@ function Home() {
       <Reviews/>
       <Contact/>
       <Footer/>
+      <WhatsappBtn/>
     </HomeContainer>
   );
 }

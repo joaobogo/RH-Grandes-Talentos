@@ -52,6 +52,8 @@ p{
 
 h2{
   margin-bottom: 5vh;
+  margin-left: 4%;
+  margin-right: 4%;
 }
   }
 `;
