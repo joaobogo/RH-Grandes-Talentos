@@ -139,7 +139,6 @@ function Candidates() {
           </div>
         </div>
 <Contact data-aos="fade-in"></Contact>
-       <Footer></Footer>
       </CandidatesContainer>
       <Footer/>
       <Whatsapp/>
