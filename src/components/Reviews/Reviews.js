@@ -11,6 +11,11 @@ import "swiper/css/autoplay";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import linkedin from "../../assets/linkedin.jpeg";
+import natalia from "../../assets/natalia.jpeg";
+import maria from "../../assets/maria.jpeg";
+import rangel from "../../assets/rangel.jpeg";
+
+
 
 function Reviews() {
   useEffect(() => {
@@ -42,7 +47,7 @@ function Reviews() {
             </p>
 
             <div className="profile">
-              <img src={linkedin} />
+              <img src={natalia} />
               <p className="name">Natália Monteiro</p>
             </div>
             <p className="position">
@@ -65,7 +70,7 @@ function Reviews() {
               quem eu sou profissionalmente.
             </p>
             <div className="profile">
-              <img src={linkedin} />
+              <img src={maria} />
               <p className="name">Maria Gabriela Pires Gresta</p>
             </div>
             <p className="position">Analista de Processos / Projetos</p>
@@ -82,7 +87,7 @@ function Reviews() {
               trabalho.
             </p>
             <div className="profile">
-              <img src={linkedin} />
+              <img src={rangel} />
               <p className="name">Rangel Prates dos Santos</p>
             </div>
             <p className="position">

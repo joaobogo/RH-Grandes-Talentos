@@ -11,6 +11,7 @@ function Contact() {
   const [contact, setContact] = useState({
     name: "",
     email: "",
+    phone: "",
     subject: "",
     message: "",
   });
@@ -30,18 +31,19 @@ function Contact() {
     event.preventDefault();
     const from_name = contact.name;
     const message = contact.message;
+    const phone = contact.phone;
     const subject = contact.subject;
     const reply_to = contact.email;
 
     const data = {
-      service_id: "service_ujkdmj1",
-      template_id: "template_q75mzv7",
+      service_id: "service_i9f8uqm",
+      template_id: "template_5dydxql",
       user_id: process.env.REACT_APP_USER_ID,
-      template_params: { from_name, message, reply_to, subject },
+      template_params: { from_name, message, reply_to, subject, phone },
     };
 
     axios.post("https://api.emailjs.com/api/v1.0/email/send", data);
-    setContact({ name: "", email: "", subject: "", message: "" });
+    setContact({ name: "", email: "", subject: "", message: "", phone: "" });
   }
 
   return (
@@ -88,9 +90,9 @@ function Contact() {
             <label>Telefone:</label>
             <input
               onChange={handleChange}
-              name="email"
+              name="phone"
               value={contact.phone}
-              type='number'
+              type='text'
             ></input>
             <label>Assunto:</label>
             <input
