@@ -61,7 +61,7 @@ function Contact() {
             <FaPhone className="icones"/> <p>(11) 99126-0399</p>
           </div>
           <div className="icons">
-            <FaMailBulk className="icones"/> <p>rhgrandestalentos@gmail.com</p>
+            <FaMailBulk className="icones"/> <p>contato@rhgrandestalentos.com.br</p>
           </div>
           <div className="quickicons">
             <a href="https://www.linkedin.com/company/rh-grandes-talentos/"><FaLinkedin className="icones2"/></a>
